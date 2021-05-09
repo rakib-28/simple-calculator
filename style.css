@@ -1,0 +1,26 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(156, 199, 201),
+    rgb(140, 202, 115)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(39, 73, 53);
+}
+#inputarea {
+  font-size: larger;
+}
+.calculate {
+  margin-top: 10px;
+}
+#headerid {
+  font-size: larger;
+  text-align: center;
+}
+#ans {
+  font-size: larger;
+  color: #c22a2a;
+}

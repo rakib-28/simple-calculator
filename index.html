@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="headerid">
+      <h1>Simple Calculator</h1>
+    </header>
+    <div id="inputarea">
+      <label for="fname">First Number:</label><br />
+      <input type="text" id="fnum" /><br />
+      <label for="lname">Second Number:</label><br />
+      <input type="text" id="lnum" /><br />
+      <input type="submit" value="+" id="calculate1" class="calculate" />
+      <input type="submit" value="-" id="calculate2" class="calculate" />
+      <input type="submit" value="x" id="calculate3" class="calculate" />
+      <input type="submit" value="/" id="calculate4" class="calculate" />
+      <input type="submit" value="reset" id="reset" class="calculate" />
+      <h3>Answer: <span id="ans"></span></h3>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
